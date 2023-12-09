@@ -30,7 +30,7 @@ header {
   margin-left: 150px;
   width: 20%;
   height: 30px;
-  background: url(/assets/lupa-pesquisa.png) no-repeat scroll 7px 7px;
+  background: url(./assets/lupa-pesquisa.png) no-repeat scroll 7px 7px;
   background-color: #ffffffe0;
   background-size: 15px;
   border: none;
@@ -68,6 +68,9 @@ aside {
   width: 85%;
   height: auto;
   border-radius: 120px;
+  border-style: outset;
+  border-color:  #f48020;
+  border-width: 13px;
 }
 .intro-ong {
   width: 85%;
@@ -91,6 +94,10 @@ aside {
   color: white;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+}
+.botao-tecnologia:hover {
+  background-color: #018b54;
 }
 .botao-cultura {
   width: 40%;
@@ -101,6 +108,10 @@ aside {
   color: white;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+}
+.botao-cultura:hover {
+  background-color: #f48020;
 }
 .home,
 .content {
@@ -227,6 +238,10 @@ input[type="submit"] {
   border: none;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #018b54;
 }
 .botao-enviar {
   display: flex;
